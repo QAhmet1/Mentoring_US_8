@@ -23,5 +23,6 @@ public class _01_JavaVariables {
 
         int age=34;
         System.out.println(age);
+        System.out.println(name+"\t"+age);
     }
 }
