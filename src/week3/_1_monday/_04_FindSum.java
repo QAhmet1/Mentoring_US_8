@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _04_FindSum {
     public static void main(String[] args) {
         // Find the sum of the numbers up to an entered number and print it.
-        // including the entered number
+        // include the entered number
         //for instance if the user entered 5 then the result will be 5+4+3+2+1=15
 
         Scanner scanner = new Scanner(System.in);
@@ -16,8 +16,6 @@ public class _04_FindSum {
         {
             sum=sum+number; // 5 9 12 14 15
             number--; // 5 4 3 2 1
-
-
         }
 
         System.out.println("Total = " + sum);
