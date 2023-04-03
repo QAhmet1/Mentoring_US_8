@@ -7,7 +7,7 @@ public class _02_DataTypes {
          TODO Data types are divided into two groups:
 
          Primitive data types - includes byte, short, int, long, float, double, boolean and char
-         Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+         Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in later chapter)
          */
         byte byteValue=4;
         short shortValue=3000;
