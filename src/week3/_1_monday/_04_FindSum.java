@@ -7,17 +7,19 @@ public class _04_FindSum {
         // Find the sum of the numbers up to an entered number and print it.
         // include the entered number
         //for instance if the user entered 5 then the result will be 5+4+3+2+1=15
-
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter a number : ");
-        int number=scanner.nextInt(); //5
-        int sum=0;
-        while(number>0)
-        {
-            sum=sum+number; // 5 9 12 14 15
-            number--; // 5 4 3 2 1
-        }
+        int number = input.nextInt();
+        int sum = 0;
+        while (number > 0) {
+            sum += number;
+            System.out.println("number = " + number);
+            number--;
 
-        System.out.println("Total = " + sum);
+        }
+        System.out.println("sum = " + sum);
+
+
     }
+
 }
