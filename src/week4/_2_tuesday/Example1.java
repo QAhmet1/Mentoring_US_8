@@ -1,16 +1,17 @@
 package week4._2_tuesday;
 
 public class Example1 {
-    // TODO Write a Java program to calculate the average value of array elements.
-    //{20, 30, 25, 35, -16, 60, -100}
+
     public static void main(String[] args) {
-        int[] numbers = new int[]{20, 30, 25, 35, -16, 60, -100};
-        //calculate sum of all array elements
-        int sum = 0;
-        for(int i=0; i < numbers.length ; i++)
-            sum = sum + numbers[i];
-        //calculate average value
-        double average = sum / numbers.length;
-        System.out.println("Average value of the array elements is : " + average);
+        //Write a Java program to find the duplicate values of an array of integer values.
+        int[] arr = {1, 2, 5, 5, 6, 6, 7, 2};
+        // Loop through the array
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i] == arr[j] && i != j) {
+                    System.out.println("Duplicate number: " + arr[j]);
+                }
+            }
+        }
     }
 }

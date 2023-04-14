@@ -8,22 +8,23 @@ public class Example2 {
     //Find the number of odd elements in the array.
     //find the sum of the odd elements in the array
     public static void main(String[] args) {
-        int[] arr = new int[7];
-
         Scanner sc = new Scanner(System.in);
-        int sumOdd = 0;
+        int[] numbers = new int[7];
         int countOdd = 0;
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter "+(i + 1) + "th number : ");
-            arr[i] = sc.nextInt();
-            if (arr[i] % 2 == 1) {
-                sumOdd += arr[i];
+        int sumOdd = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print("Please enter a number : ");
+            numbers[i] = sc.nextInt();
+            if (numbers[i] % 2 == 1) {
+                sumOdd += numbers[i];
                 countOdd++;
             }
         }
         System.out.println("sumOdd = " + sumOdd);
         System.out.println("countOdd = " + countOdd);
 
+
     }
+
 
 }

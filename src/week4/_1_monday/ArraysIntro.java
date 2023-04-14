@@ -2,40 +2,29 @@ package week4._1_monday;
 
 public class ArraysIntro {
     public static void main(String[] args) {
-        /*
-       TODO We will learn to declare, initialize, and access array elements .
+        //fixed-size
 
-       TODO How to declare an array in Java?
-        dataType[] arrayName;
-        ...
+        //declare
 
-         */
-        double[] data;
-        String[] strArr;
+        double[] dArr;
+        //initialize
 
+        dArr=new double[5];
+//        dArr[0]=3.2;
+//        dArr[1]=3.2;
+//        dArr[2]=3.2;
+//        dArr[3]=3.2;
+//        dArr[4]=3.2;
 
-        // TODO How to Initialize Arrays in Java?
+        dArr= new double[]{3.2, 3.5, 5.0, 8.0};
 
-        //declare and initialize and array
-        //int[] age = {12, 4, 5, 2, 5};
+        int[]age={1,2,3,4};
+        age[0]=2;
+        age[1]=2;
+        age[2]=2;
+        age[3]=2;
 
-        // declare an array
-        int[] age = new int[5];
-
-        // initialize array
-        age[0] = 12;
-        age[1] = 4;
-        age[2] = 5;
-        age[3] = 2;
-        age[4] = 5;
-
-        //TODO How to Access Elements of an Array in Java?
-
-        System.out.println("Accessing Elements of Array:");
-        System.out.println("First Element: " + age[0]);
-        System.out.println("Second Element: " + age[1]);
-        System.out.println("Third Element: " + age[2]);
-        System.out.println("Fourth Element: " + age[3]);
-        System.out.println("Fifth Element: " + age[4]);
+        System.out.println(age[4]);
     }
+
 }
