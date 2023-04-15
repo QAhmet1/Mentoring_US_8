@@ -12,7 +12,6 @@ public class _01_JavaTypeCasting {
     public static void main(String[] args) {
 
         // schedule of today : Java Operators and Castings
-
         // there are 'addition' operators
 
         int num = 10;
