@@ -10,7 +10,7 @@ public class Task1 {
 
         int  []  arr  = {3,5,6,0,0,0};
 
-        int multiplication = 1;  // preferred 1 since it is not changing the result.
+        int multiplication = 1;  // preferred 1, since it is not changing the result.
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {

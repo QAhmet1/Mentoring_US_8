@@ -6,7 +6,6 @@ public class Task4 {
     public static void main(String[] args) {
 
            /*
-Task 5:
 Enter the lenght and  Create an array of integers.
 Insert their values from the console.
 Print only positive elements.
