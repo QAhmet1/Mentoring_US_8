@@ -4,7 +4,7 @@ import java.util.Arrays;
 /*
 Store the alphabet in a char array, and print it.
 */
-public class Task5 {
+public class AlphabetInCharArray {
 
     public static void main(String[] args) {
 

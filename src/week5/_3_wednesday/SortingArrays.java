@@ -2,7 +2,7 @@ package week5._3_wednesday;
 
 import java.util.Arrays;
 
-public class Task0 {
+public class SortingArrays {
     public static void main(String[] args) {
 
 

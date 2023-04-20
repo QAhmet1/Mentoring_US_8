@@ -13,7 +13,7 @@ package week5._4_thursday;
 
  */
 
-public class Task4 {
+public class Initials {
 
     public static void main(String[] args) {
 

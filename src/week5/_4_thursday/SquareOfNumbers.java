@@ -5,7 +5,7 @@ package week5._4_thursday;
 
 import java.util.Arrays;
 
-public class Task6 {
+public class SquareOfNumbers {
 
     public static void main(String[] args) {
 

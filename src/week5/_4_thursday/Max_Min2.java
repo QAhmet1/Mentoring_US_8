@@ -2,7 +2,7 @@ package week5._4_thursday;
 
 // Find the max and minimum element by using for loop and if condition
 
-public class Task2 {
+public class Max_Min2 {
     public static void main(String[] args) {
 
 

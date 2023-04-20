@@ -5,7 +5,7 @@ package week5._3_wednesday;
 
 import java.util.Arrays;
 
-public class Task1 {
+public class Anagram {
 
     public static void main(String[] args) {
 

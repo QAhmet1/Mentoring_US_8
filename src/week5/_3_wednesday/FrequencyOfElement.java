@@ -1,6 +1,6 @@
 package week5._3_wednesday;
 
-public class Task2 {
+public class FrequencyOfElement {
 
     public static void main(String[] args) {
 

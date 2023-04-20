@@ -2,7 +2,7 @@ package week5._4_thursday;
 
 // Find the sum and average of elements in the given array --> {1,5,65,4,76,12}
 
-public class Task3 {
+public class SumAndAverageOfElements {
 
     public static void main(String[] args) {
 

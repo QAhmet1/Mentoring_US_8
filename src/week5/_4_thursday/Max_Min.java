@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // Find the maximum and minimum element of the array
 
-public class Task1 {
+public class Max_Min {
     public static void main(String[] args) {
 
 
