@@ -1,13 +1,15 @@
 package week5._3_wednesday;
 
+// Can you check whether two words (given) are anagram or not?
+// What is Anagram ? -- > 1) Same Letters 2) Order may be  different 3) Length is same
+
 import java.util.Arrays;
 
 public class Task1 {
 
     public static void main(String[] args) {
 
-        // Can you check whether two words (given) are anagram or not?
-        // What is Anagram ? -- > 1) Same Letters 2) Order may be  different 3) Length is same
+   
 
         String str1 = "DAeR";
         String str2 = "ReAd";
