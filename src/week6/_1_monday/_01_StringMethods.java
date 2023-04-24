@@ -32,11 +32,6 @@ public class _01_StringMethods {
         System.out.println("result = " + result);
 
 
-
-
-
-
-
         //TODO  ******  Contains Method  ****
 
         String text3="Hello Guys";
