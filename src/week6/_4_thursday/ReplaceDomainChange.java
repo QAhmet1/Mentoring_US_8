@@ -5,7 +5,7 @@ We enter a string (text) into our program.
 The program should output the number of vowels. (vowels: a, e, i, o, u)
 Input
 Tesla
-Output
+Output.
 2
 
  */

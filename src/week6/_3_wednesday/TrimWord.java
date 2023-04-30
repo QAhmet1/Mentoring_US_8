@@ -4,7 +4,7 @@ public class TrimWord {
     public static void main(String[] args) {
 
 
-        // trim method in Java
+        // trim method in Java.
         String str = "          hello java       ";
         System.out.println(str + " " + str.length());
 

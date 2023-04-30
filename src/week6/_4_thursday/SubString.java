@@ -7,7 +7,7 @@ public class SubString {
         
         
         String str = "johndoe@gmail.com";
-        int beginningIndex = str.indexOf("@") +1; // index including
+        int beginningIndex = str.indexOf("@") +1; // index including.
         int endingIndex = str.indexOf(".");  // index excluding
         String domain = str.substring(beginningIndex,endingIndex);
         System.out.println("domain = " + domain);

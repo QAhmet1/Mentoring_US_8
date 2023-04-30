@@ -1,5 +1,5 @@
 package week6._3_wednesday;
-// Convert the string "techno study" into "Tehcno study" by using replaceFirst method.
+// Convert the string "techno study" into "Tehcno study" by using replaceFirst method..
 public class ReplaceFirst {
 
 

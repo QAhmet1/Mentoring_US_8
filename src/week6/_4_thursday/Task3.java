@@ -1,7 +1,7 @@
 package week6._4_thursday;
 
       /*
-We enter a string (text) into our program.
+We enter a string (text) into our program..
 The program should output the number of vowels. (vowels: a, e, i, o, u)
 Input
 Tesla

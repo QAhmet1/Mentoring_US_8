@@ -3,7 +3,7 @@ package week6._3_wednesday;
 import java.util.Scanner;
 
 /*
-Have a text from scanner, if the text ends with "java" print "True" else "False"
+Have a text from scanner, if the text ends with "java" print "True" else "False".
 */
 public class EndWith {
     public static void main(String[] args) {

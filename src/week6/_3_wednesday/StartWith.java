@@ -2,7 +2,7 @@ package week6._3_wednesday;
 
 import java.util.Scanner;
 /*
-Have a text from scanner, if the text starts with "hello" print "True" else "False"
+Have a text from scanner, if the text starts with "hello" print "True" else "False".
  */
 public class StartWith {
     public static void main(String[] args) {

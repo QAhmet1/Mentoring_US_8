@@ -1,6 +1,6 @@
 package week6._3_wednesday;
 /*
-Print the first letter of a given string as Upper Case Given "applehouse" Outuput: "A"
+Print the first letter of a given string as Upper Case Given "applehouse" Outuput: "A".
 */
 public class UpperCaseOfOneLetter {
 

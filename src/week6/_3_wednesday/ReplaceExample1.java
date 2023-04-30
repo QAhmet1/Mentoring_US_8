@@ -1,6 +1,6 @@
 package week6._3_wednesday;
        /*
-Convert the string "hellojava" into string "hijava" by using replace  method
+Convert the string "hellojava" into string "hijava" by using replace  method.
  */
 
 public class ReplaceExample1 {

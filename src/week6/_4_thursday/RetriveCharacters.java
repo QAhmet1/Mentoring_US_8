@@ -2,7 +2,7 @@ package week6._4_thursday;
 
 /*
  String text = "2094904439rememeeejlkjew**2*2*";
- Retrive numbers, letters and special chars and print each group with different variables.
+ Retrive numbers, letters and special chars and print each group with different variables..
  */
 
 public class RetriveCharacters {

@@ -1,6 +1,6 @@
 package week6._4_thursday;
 
-// STRING IMMUTABLE:
+// STRING IMMUTABLE.
 
 public class StringImmutable {
 

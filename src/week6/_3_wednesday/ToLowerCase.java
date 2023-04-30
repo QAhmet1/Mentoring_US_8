@@ -1,6 +1,6 @@
 package week6._3_wednesday;
      /*
-Receive a text from the console and convert it to all lower case
+Receive a text from the console and convert it to all lower case.
  */
 import java.util.Scanner;
 
