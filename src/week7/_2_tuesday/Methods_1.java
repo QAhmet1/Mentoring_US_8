@@ -14,6 +14,7 @@ public class Methods_1 {
          Select an action
         */
     public static void main(String[] args) {
+        
         Scanner sc=new Scanner(System.in);
         int action;
         do {
