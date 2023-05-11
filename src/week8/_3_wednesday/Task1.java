@@ -1,4 +1,4 @@
-package week8._1_monday._3_wednesday;
+package week8._3_wednesday;
 
 /*
 // create simple method that will replace all negative elements in array into 0

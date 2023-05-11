@@ -1,4 +1,4 @@
-package week8._1_monday._3_wednesday;
+package week8._3_wednesday;
 // Create a method that finds the unique elements of a  given string.
 // This must be a return method, static method
 public class Task4 {

@@ -1,4 +1,4 @@
-package week8._1_monday._3_wednesday;
+package week8._3_wednesday;
 
 // Create a method that finds the frequency of a char in the string
 // str = "apple" char= 'p' frequency = 2
