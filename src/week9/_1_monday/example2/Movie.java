@@ -37,7 +37,7 @@ public class Movie {
 
     public void getMovies(Movie [] mArr){
         for (int i = 0; i <mArr.length ; i++) {
-            System.out.println("*****   movie "+i);
+            System.out.println("*****   movie "+(i+1));
             System.out.println("Title is : "+mArr[i].title);
             System.out.println("Studio is : "+mArr[i].studio);
             System.out.println("Rating is : "+mArr[i].rating);

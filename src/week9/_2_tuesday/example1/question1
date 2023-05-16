@@ -1,0 +1,7 @@
+//            An object of class Holiday represents a
+//            holiday during the year. This class has three instance variables:
+//            ● name, which is a String representing the name of the holiday
+//            ● day, which is an int representing the day of the month of the holiday
+//            ● month, which is a String representing the month the holiday is in
+//              Write a piece of code that creates a Holiday instance with the name “Independence Day”,
+//              with the day “4”, and with the month “July”.
