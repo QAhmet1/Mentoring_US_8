@@ -1,0 +1,37 @@
+        // OOP Concept ın Java  -- Object Oriented Programming
+
+        // Java is Object Oriented -- It is about flexiblity, having more functions and to do operations through the objects
+
+
+        // Keywords: parent, child, super, extend
+
+
+        // 1) Single İnheritance  -->  clas A extends  class B   // class B is parent, class A is child
+
+        // 2) Multi Level Inheritance --> clas A extends --> class B --> extends class C
+                                        // sub classes: A,B.  parent classes: B, C grand parent: C
+                                        // class A is the richest one
+
+
+        // 3) hierarhical inheritance
+                    // class A extends X
+                    // class B extends X
+                    // class C extends X
+
+
+        // Phone  --> parent
+        // iphone , samsung, TCL  --> sub classes
+
+
+
+        Is this possible ? --> NO --> Since multiple inheritance is not allowed in Java
+        // class A extends class B
+        // class A extends class C
+
+        // one child can have only one mother
+        // multiple inheritance is not allowed in java
+
+
+
+
+
