@@ -1,19 +1,14 @@
-package week9._2_tuesday.example2;
+package week10._3_wednesday.example1;
 
 public class Student {
     private String name;
     private String LastName;
-    private String SchoolName="Techno Study";
     private int age;
-    private int schoolNo;
-    private static int ID=100;
 
     public Student(String name, String lastName, int age) {
         setName(name);
         setLastName(lastName);
         setAge(age);
-        setSchoolName(getSchoolName());
-        setSchoolNo(ID++ );
     }
 
     public String getName() {
@@ -32,15 +27,13 @@ public class Student {
         LastName = lastName;
     }
 
-    public String getSchoolName() {
-        return SchoolName;
-    }
-
-    public void setSchoolName(String schoolName) {
-        SchoolName = schoolName;
-    }
-
-    public int getAge() {
+    public int getAge() throws Exception {
+        if (age>15){
+            throw  new Exception("The age cannot be more than 15");
+        }
+        else {
+            this.age=age;
+        }
         return age;
     }
 
@@ -48,11 +41,12 @@ public class Student {
         this.age = age;
     }
 
-    public int getSchoolNo() {
-        return schoolNo;
-    }
-
-    public void setSchoolNo(int schoolNo) {
-        this.schoolNo = schoolNo;
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", LastName='" + LastName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
