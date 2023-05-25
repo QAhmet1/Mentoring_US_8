@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SchoolMain {
     public static void main(String[] args) {
-        School school=new School("Techno Study", 3);
+        School school=new School("Techno Study", 1);
         Scanner sc1=new Scanner(System.in);
         Scanner sc2=new Scanner(System.in);
  int numberStudents=1;
@@ -29,9 +29,11 @@ public class SchoolMain {
         }while (numberStudents<= school.getMaxNumOfStudents());
 
         for (int i = 0; i < school.getStudents().size(); i++) {
-            System.out.println(school.getStudents().get(i).getName());
-            System.out.println(school.getStudents().get(i).getLastName());
-            //System.out.println(school.getStudents().get(i).getAge());
+            System.out.println(school.getStudents().get(i));
+
+//            System.out.println(school.getStudents().get(i).getName());
+//            System.out.println(school.getStudents().get(i).getLastName());
+//            System.out.println(school.getStudents().get(i).getAge());
 
         }
 

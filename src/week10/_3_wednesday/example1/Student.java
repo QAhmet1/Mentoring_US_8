@@ -5,7 +5,7 @@ public class Student {
     private String LastName;
     private int age;
 
-    public Student(String name, String lastName, int age) {
+    public Student(String name, String lastName, int age) throws Exception {
         setName(name);
         setLastName(lastName);
         setAge(age);
@@ -27,18 +27,15 @@ public class Student {
         LastName = lastName;
     }
 
-    public int getAge() throws Exception {
-        if (age>15){
-            throw  new Exception("The age cannot be more than 15");
-        }
-        else {
-            this.age=age;
-        }
+    public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age) throws Exception {
+        if (age > 15) {
+            throw new Exception("The age cannot be more than 15");
+        } else
+            this.age = age;
     }
 
     @Override
