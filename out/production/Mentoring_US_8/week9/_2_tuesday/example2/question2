@@ -1,0 +1,8 @@
+         // 1- Define a Student class whose fields are name, last name, and age,school name.
+         // 2- Define a constructor for the student class consisting of first name, last name and age.
+         // 3- Apply encapsulation for all fields.
+         // 4- Assign a unique ID to all students.
+         // 5- Create a class named School Main with the main method.
+         // 6-Create at least 3 students and add them to array
+         // 7- Print all students
+
