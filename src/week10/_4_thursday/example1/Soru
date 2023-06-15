@@ -1,0 +1,4 @@
+- Write the required modules according to the attached Design.
+-Then create TeslaCar , ToyotaPirus and cityBus objects.
+-Add your created objects to an ArrayList.
+-Then print it.

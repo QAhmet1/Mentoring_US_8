@@ -1,0 +1,10 @@
+          1- Define a Student class whose fields are name, surname, age.
+          2- Define a constructor consisting of name, surname and age for the student class.
+          3- Apply encapsulation for all fields.
+          4- Define a class named school, its fields are schoolName, maxNumber of Students and students arraylist
+          5- Add all Students to ArrayList.
+          6- Create a class named schoolMain with main method.
+          7- create a school object and add students in this school until the maximum number of students is reached.
+          However, the age of the students you will create should not exceed 15.
+          If a student over this age is wanted to be added, ask for another student instead.
+          8- Assign a unique ID to all students.

@@ -1,0 +1,5 @@
+package week11.tuesday;
+
+ enum Day {
+    MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY
+}
